@@ -1,0 +1,26 @@
+{
+  "name": "express-simple-p3p",
+  "version": "0.0.1",
+  "description": "Express micro-middleware to send P3P header containing a privacy policy link, satisfying IE without extra legal work.",
+  "main": "example.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6a68/express-simple-p3p"
+  },
+  "keywords": [
+    "p3p",
+    "express",
+    "ie"
+  ],
+  "author": "Jared Hirsch <ohai@6a68.net>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/6a68/express-simple-p3p/issues"
+  },
+  "dependencies": {
+    "useragent": "~2.0.7"
+  }
+}
